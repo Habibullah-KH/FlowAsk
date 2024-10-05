@@ -1,0 +1,23 @@
+
+
+.heroSection{
+
+    padding: 3rem;
+    background-image: linear-gradient(to right, #E4E7E4,#ffc2ae, #f0ffae);
+    background-position: left;
+    background-size: 500%;
+    animation: clr-animation 5s infinite alternate;
+    border-radius: 2rem 0 0 2rem;
+  }
+  
+  @keyframes clr-animation{
+  
+    0%{
+      background-position: left;
+    }
+  
+    100%{
+      background-position: right;
+    }
+  }
+  
